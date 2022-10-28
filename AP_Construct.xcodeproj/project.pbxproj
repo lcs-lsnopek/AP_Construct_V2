@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B22DC178290C5D6C00717543 /* AP_ConstructApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC177290C5D6C00717543 /* AP_ConstructApp.swift */; };
-		B22DC17A290C5D6C00717543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC179290C5D6C00717543 /* ContentView.swift */; };
 		B22DC17C290C5D7000717543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22DC17B290C5D7000717543 /* Assets.xcassets */; };
 		B22DC17F290C5D7000717543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22DC17E290C5D7000717543 /* Preview Assets.xcassets */; };
+		B22DC18B290C60C900717543 /* AddEquationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC18A290C60C900717543 /* AddEquationView.swift */; };
+		B22DC18D290C60CE00717543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC18C290C60CE00717543 /* ContentView.swift */; };
+		B22DC190290C60FD00717543 /* EquationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC18F290C60FD00717543 /* EquationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B22DC174290C5D6C00717543 /* AP_Construct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AP_Construct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22DC177290C5D6C00717543 /* AP_ConstructApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP_ConstructApp.swift; sourceTree = "<group>"; };
-		B22DC179290C5D6C00717543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B22DC17B290C5D7000717543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B22DC17E290C5D7000717543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B22DC18A290C60C900717543 /* AddEquationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEquationView.swift; sourceTree = "<group>"; };
+		B22DC18C290C60CE00717543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B22DC18F290C60FD00717543 /* EquationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				B22DC177290C5D6C00717543 /* AP_ConstructApp.swift */,
-				B22DC179290C5D6C00717543 /* ContentView.swift */,
+				B22DC189290C609D00717543 /* Views */,
+				B22DC18E290C60ED00717543 /* Moldel */,
 				B22DC17B290C5D7000717543 /* Assets.xcassets */,
 				B22DC17D290C5D7000717543 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				B22DC17E290C5D7000717543 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B22DC189290C609D00717543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B22DC18A290C60C900717543 /* AddEquationView.swift */,
+				B22DC18C290C60CE00717543 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B22DC18E290C60ED00717543 /* Moldel */ = {
+			isa = PBXGroup;
+			children = (
+				B22DC18F290C60FD00717543 /* EquationModel.swift */,
+			);
+			path = Moldel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22DC17A290C5D6C00717543 /* ContentView.swift in Sources */,
+				B22DC18B290C60C900717543 /* AddEquationView.swift in Sources */,
+				B22DC190290C60FD00717543 /* EquationModel.swift in Sources */,
 				B22DC178290C5D6C00717543 /* AP_ConstructApp.swift in Sources */,
+				B22DC18D290C60CE00717543 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
