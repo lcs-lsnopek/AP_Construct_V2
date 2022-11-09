@@ -11,7 +11,11 @@ struct ContentView: View {
     
     //MARK: Stored Proprotys
     
+    @State var anwser1: Double = 0.0
+    
     @Binding var equations: [Equation]
+    
+    @State private var selectionMade = false
     
     //MARK: Computed Proprotys
     
@@ -24,7 +28,7 @@ struct ContentView: View {
             Text("History")
                 .font(.title2)
             
-           List(equations) { currentItem in
+          List(equations) { currentItem in
               VStack {
                   Text("x = \(currentItem.anwser1.formatted(.number.rounded()))")
                   Text("x = \(currentItem.anwser2.formatted(.number.rounded()))")
@@ -33,6 +37,14 @@ struct ContentView: View {
                   Text("c = \(currentItem.varubleC.formatted(.number.rounded()))")
                     }
                 }
+            
+            List(filtered(by: anwser1,
+                          from: equations,
+                          selectionActive: selectionMade)) { equations in
+
+                
+            }
+            
             }
         }
     }
