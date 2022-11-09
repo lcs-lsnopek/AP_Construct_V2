@@ -88,10 +88,10 @@ struct AddEquationView: View {
                    maximumValueLabel: {
                         Text("100")
             })
-
+            .padding()
             Text("\(varubleC.formatted(.number.rounded()))")
             }
-            .padding()
+            
             Button(action: {
                 
                 saveResult()
@@ -104,6 +104,7 @@ struct AddEquationView: View {
         }
 
     }
+        
     //MARK: Functions
     
     func saveResult() {

@@ -13,6 +13,7 @@
 		B22DC18B290C60C900717543 /* AddEquationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC18A290C60C900717543 /* AddEquationView.swift */; };
 		B22DC18D290C60CE00717543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC18C290C60CE00717543 /* ContentView.swift */; };
 		B22DC190290C60FD00717543 /* EquationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22DC18F290C60FD00717543 /* EquationModel.swift */; };
+		B2D7AA0F291A975B003EBB4C /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7AA0E291A975B003EBB4C /* SharedFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B22DC18A290C60C900717543 /* AddEquationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEquationView.swift; sourceTree = "<group>"; };
 		B22DC18C290C60CE00717543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B22DC18F290C60FD00717543 /* EquationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquationModel.swift; sourceTree = "<group>"; };
+		B2D7AA0E291A975B003EBB4C /* SharedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				B22DC177290C5D6C00717543 /* AP_ConstructApp.swift */,
+				B2D7AA0D291A96A7003EBB4C /* Functions  */,
 				B22DC189290C609D00717543 /* Views */,
 				B22DC18E290C60ED00717543 /* Moldel */,
 				B22DC17B290C5D7000717543 /* Assets.xcassets */,
@@ -87,6 +90,14 @@
 				B22DC18F290C60FD00717543 /* EquationModel.swift */,
 			);
 			path = Moldel;
+			sourceTree = "<group>";
+		};
+		B2D7AA0D291A96A7003EBB4C /* Functions  */ = {
+			isa = PBXGroup;
+			children = (
+				B2D7AA0E291A975B003EBB4C /* SharedFunctions.swift */,
+			);
+			path = "Functions ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B22DC18B290C60C900717543 /* AddEquationView.swift in Sources */,
+				B2D7AA0F291A975B003EBB4C /* SharedFunctions.swift in Sources */,
 				B22DC190290C60FD00717543 /* EquationModel.swift in Sources */,
 				B22DC178290C5D6C00717543 /* AP_ConstructApp.swift in Sources */,
 				B22DC18D290C60CE00717543 /* ContentView.swift in Sources */,

@@ -24,18 +24,17 @@ struct ContentView: View {
             Text("History")
                 .font(.title2)
             
-            List(equations) { currentItem in
-                VStack {
-                    Text("x = \(currentItem.anwser1)")
-                    Text("x = \(currentItem.anwser2)")
-                    Text("a = \(currentItem.varubleA)")
-                    Text("b = \(currentItem.varubleB)")
-                    Text("c = \(currentItem.varubleC)")
+           List(equations) { currentItem in
+              VStack {
+                  Text("x = \(currentItem.anwser1.formatted(.number.rounded()))")
+                  Text("x = \(currentItem.anwser2.formatted(.number.rounded()))")
+                  Text("a = \(currentItem.varubleA.formatted(.number.rounded()))")
+                  Text("b = \(currentItem.varubleB.formatted(.number.rounded()))")
+                  Text("c = \(currentItem.varubleC.formatted(.number.rounded()))")
+                    }
                 }
             }
-            
         }
-    }
     }
 }
 
