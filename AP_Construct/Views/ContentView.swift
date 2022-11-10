@@ -25,6 +25,19 @@ struct ContentView: View {
         
         VStack {
             
+            Slider(value: $anwser1,
+                   in: -100.0...100.0,
+                   label: {
+                        Text("a")
+            },
+                   minimumValueLabel: {
+                        Text("-100")
+            },
+                   maximumValueLabel: {
+                        Text("100")
+            })
+                .padding()
+            
             Text("History")
                 .font(.title2)
             
